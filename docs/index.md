@@ -1,3 +1,14 @@
-# Welcome to REALITY
+---
+layout: home
 
-这是椎名绫宫的在线知识库，欢迎来到现实世界。
+hero:
+  name: "Reality"
+  text: "椎名绫宫的共享知识库"
+  tagline: "Welcome to REALITY."
+---
+
+# 特点
+
+- 涉及范围广泛
+- 技能共享
+- 作品展示
