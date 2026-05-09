@@ -21,7 +21,9 @@ export default defineConfig({
         { text: '为什么会有人是自来熟啊？', link: '/teakTalk/isOutgoingYourNature' }
       ]},
       { text: '文学创作', items: [
-        
+        { text: '残翼', items: [
+          {text: '序章', link: '/brokenWings/chapter0.md'}
+        ]}
       ]},
       { text: '经验分享', items: [
         
