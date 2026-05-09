@@ -7,11 +7,8 @@ hero:
   tagline: "Welcome to REALITY. 这里记录认知、技能与作品的轨迹。"
   actions:
     - theme: brand
-      text: 敬请期待
-      link: /
-    - theme: alt
-      text: 完善中
-      link: /
+      text: 进入 Reality
+      link: /home
 
 features:
   - icon: 📚
