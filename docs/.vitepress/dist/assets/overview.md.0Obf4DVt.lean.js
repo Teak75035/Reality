@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as r,ae as l}from"./chunks/framework.Bbra5Q_l.js";const u=JSON.parse('{"title":"总览","description":"","frontmatter":{},"headers":[],"relativePath":"overview.md","filePath":"overview.md"}'),o={name:"overview.md"};function i(s,e,p,n,c,h){return t(),r("div",null,[...e[0]||(e[0]=[l("",12)])])}const m=a(o,[["render",i]]);export{u as __pageData,m as default};
