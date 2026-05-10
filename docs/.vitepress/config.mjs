@@ -16,7 +16,7 @@ export default defineConfig({
   },
   themeConfig: {
     sidebar: [
-      { text: '总览', link: '/home' },
+      { text: '总览', link: '/overview' },
       { text: '杂谈人生', items: [
         { text: '为什么会有人是自来熟啊？', link: '/teakTalk/isOutgoingYourNature' }
       ]},
@@ -28,6 +28,25 @@ export default defineConfig({
       { text: '经验分享', items: [
         
       ]}
-    ]
+    ],
+        editLink: {
+      pattern: 'https://t.me/lingxianww',
+      text: '联系编辑该文章/文档'
+    },
+
+    lastUpdatedText: '最后更新',
+
+    darkModeSwitchLabel: '主题',
+
+    sidebarMenuLabel: '菜单',
+
+    returnToTopLabel: '回到顶部',
+
+    outlineTitle: '概览',
+
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    }
   }
 })

@@ -1,0 +1,72 @@
+:root {
+  --vp-c-brand-1: #7c9f6b;
+  --vp-c-brand-2: #93b47d;
+  --vp-c-brand-3: #5f7d52;
+
+  --vp-c-bg: #fafaf7;
+  --vp-c-bg-soft: #f1f3ed;
+  --vp-c-bg-alt: #ffffff;
+
+  --vp-c-text-1: #2b2f2b;
+  --vp-c-text-2: #5c655c;
+
+  --vp-radius: 18px;
+
+  --vp-shadow-1:
+    0 4px 20px rgba(0,0,0,.04);
+
+  --vp-shadow-2:
+    0 10px 40px rgba(0,0,0,.08);
+}
+
+.dark {
+  --vp-c-bg: #101312;
+  --vp-c-bg-soft: #161b19;
+  --vp-c-bg-alt: #1d2421;
+
+  --vp-c-text-1: #e8efe8;
+  --vp-c-text-2: #98a398;
+}
+
+.VPHero .container {
+  backdrop-filter: blur(20px);
+}
+
+.VPHero .image {
+  filter:
+    drop-shadow(0 0 40px rgba(124,159,107,.3));
+}
+
+.custom-block {
+  border-radius: 10px;
+  border: none !important;
+  background: var(--vp-c-bg-soft);
+  padding: 20px;
+  box-shadow: var(--vp-shadow-1);
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: .4;
+  pointer-events: none;
+}
+
+.VPSidebarItem {
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.VPSidebarItem:hover {
+  transform: translateX(4px);
+}
+
+.vp-code-group,
+div[class*='language-'] {
+  border-radius: 18px !important;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,.03),
+    0 5px 30px rgba(100,100,100,.2);
+}
+

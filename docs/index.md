@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 进入 Reality
-      link: /home
+      link: /overview
 
 features:
   - icon: 📚
