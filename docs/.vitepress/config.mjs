@@ -49,7 +49,7 @@ export default defineConfig({
   extends: teekConfig,
   title: 'REALITY LAB',
   description: '椎名绫宫的在线知识库',
-  base: '/Reality/',
+  base: '',
   vite: {
     plugins: [
       pagefind.default?.() ?? pagefind.pagefind?.()
