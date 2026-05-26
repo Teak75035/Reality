@@ -68,10 +68,6 @@ export default defineConfig({
         text: "<i class='iconfont icon-guide'></i>杂谈",
         link: "/01.闲言碎语的杂谈/01.为什么会有人是自来熟啊？.md",
       },
-      {
-        text: "<i class='iconfont icon-guide'></i>残翼",
-        link: "/02.残翼/01.不算序章的序章.md",
-      },
     ],
     editLink: {
       pattern: 'https://t.me/lingxianww',
